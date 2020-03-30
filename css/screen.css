@@ -34,7 +34,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "HK Grotesk Web";
+    font-family: "HK Grotesk";
     color: #202024;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -254,9 +254,9 @@ a:focus {
     flex-wrap: wrap;
 }
 
-    .o-layout__item {
-        flex-basis: 100%;
-    }
+.o-layout__item {
+    flex-basis: 100%;
+}
 
 /* gutter modifiers, these affect o-layout__item too */
 
