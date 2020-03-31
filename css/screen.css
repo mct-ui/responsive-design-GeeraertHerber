@@ -475,6 +475,7 @@ a:focus {
     height: 1px;
     width: 100%;
     background-color: #7373F5;
+    text-decoration: none;
 }
 
 .c-link-cta:hover {
