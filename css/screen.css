@@ -201,6 +201,10 @@ a:focus {
 .o-row--neutral-x-light{
     background-color: #F7F7FA;
 }
+.o-row--gradient {
+    background: linear-gradient(to top right,  #5051DB 0%,#3887F7 100%);
+    color: #FFF; 
+}
 /* size modifiers */
 
 .o-row--lg {
@@ -496,6 +500,14 @@ a:focus {
     background-color: #323EA8;
 }
 
+.c-link-cta--inverse::after,
+.c-link-cta--inverse:hover::after,
+.c-link-cta--inverse:hover,
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #FFF;
+}
 /*
     Component: Lead
     ---
@@ -864,7 +876,7 @@ a:focus {
     .c-nav__link {
         padding: 8px 16px;
     }
-    
+
     .c-link-cta {
         font-size: 20px;
     }
